@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable", "ES2015"],
+    "strict": true,
+    "allowJs": true,
+    "noEmit": true,
+    "types": ["node", "axe-playwright"]
+  },
+  "compileOnSave": true
+}
